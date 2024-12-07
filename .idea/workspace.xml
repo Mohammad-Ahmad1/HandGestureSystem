@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add Presentation slides">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
     "Python.PresentationController.executor": "Run",
     "Python.Swipe_Presentation.executor": "Run",
     "Python.VolumeControl.executor": "Run",
+    "Python.VolumeController.executor": "Run",
     "Python.presentation_controller.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -70,35 +70,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Ahmad\Python\Hand_Gesture_System" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Swipe_Presentation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Hand_Gesture_System" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Presentation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Presentation/Swipe_Presentation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Swipe_Presentation" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -164,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733594652251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add requirements.txt">
+      <option name="closed" value="true" />
+      <created>1733595851042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733595851042</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +153,7 @@
     <MESSAGE value="Commit Init in Presentation" />
     <MESSAGE value="Add pointer in Presentation" />
     <MESSAGE value="Add Presentation slides" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Presentation slides" />
+    <MESSAGE value="Add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add requirements.txt" />
   </component>
 </project>
