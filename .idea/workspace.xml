@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add pointer in Presentation">
+    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add Presentation slides">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +50,24 @@
     "Python.Presentation.executor": "Run",
     "Python.PresentationController.executor": "Run",
     "Python.Swipe_Presentation.executor": "Run",
+    "Python.VolumeControl.executor": "Run",
     "Python.presentation_controller.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Ahmad/Python/Hand_Gesture_System/Presentation/Resources",
+    "last_opened_file_path": "D:/Ahmad/Python/Hand_Gesture_System/.venv",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ahmad\Python\Hand_Gesture_System\.venv" />
       <recent name="D:\Ahmad\Python\Hand_Gesture_System\Presentation\Resources" />
       <recent name="D:\Ahmad\Python\Hand_Gesture_System\Presentation" />
       <recent name="D:\Ahmad\Python\Hand_Gesture_System\Presentaion" />
+      <recent name="D:\Ahmad\Python\Hand_Gesture_System" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Ahmad\Python\Hand_Gesture_System" />
     </key>
   </component>
@@ -151,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733506451308</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Presentation slides">
+      <option name="closed" value="true" />
+      <created>1733594652251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733594652251</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +173,7 @@
     <MESSAGE value="Add Presentation.py and Slides in it" />
     <MESSAGE value="Commit Init in Presentation" />
     <MESSAGE value="Add pointer in Presentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pointer in Presentation" />
+    <MESSAGE value="Add Presentation slides" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Presentation slides" />
   </component>
 </project>
