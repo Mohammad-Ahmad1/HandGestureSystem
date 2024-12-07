@@ -1,9 +1,15 @@
 import os
 import cv2
+import screeninfo
 from cvzone.HandTrackingModule import HandDetector
 
+# Get screen resolution
+screen = screeninfo.get_monitors()[0]  # Get the primary monitor
+width, height = screen.width, screen.height
+print (width, height)
+
 # slide window size
-width, height = 1280, 720
+# width, height = 1280, 720
 ws, hs = int(256 * 1), int(144 * 1)  # small window size
 cap = cv2.VideoCapture(0)
 cap.set(3, width)
@@ -16,11 +22,11 @@ swipe_start = None
 
 gesture_check = False
 gesture_counter = 0
-gesture_delay = 10
+gesture_delay = 30
 
 image_folder = "..\\Presentation\\Resources"  # Image folder
 image_list = sorted(
-    [os.path.join(image_folder, img) for img in os.listdir(image_folder) if img.endswith(('.png', '.jpg', '.jpeg'))])
+    [os.path.join(image_folder, img) for img in os.listdir(image_folder) if img.endswith(('.png', '.jpg', '.jpeg'))], key=len)
 image_index = 0
 
 print(image_list)  # Print the list of Slides
@@ -52,9 +58,9 @@ while True:
 
         if cy <= gesture_threshold:
             # All finger closed
-            if fingers == [0, 0, 0, 0, 0]:
-                gesture_check = False
-                gesture_counter = 0
+            # if fingers == [0, 0, 0, 0, 0]:
+            #     gesture_check = False
+            #     gesture_counter = 0
 
             if gesture_check is False:
                 # Left Gesture
