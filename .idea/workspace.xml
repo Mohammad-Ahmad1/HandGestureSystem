@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add requirements.txt">
+    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add VolumeController.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +56,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Ahmad/Python/Hand_Gesture_System/.venv",
+    "last_opened_file_path": "D:/Ahmad/Python/Hand_Gesture_System",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ahmad\Python\Hand_Gesture_System" />
       <recent name="D:\Ahmad\Python\Hand_Gesture_System\.venv" />
       <recent name="D:\Ahmad\Python\Hand_Gesture_System\Presentation\Resources" />
       <recent name="D:\Ahmad\Python\Hand_Gesture_System\Presentation" />
       <recent name="D:\Ahmad\Python\Hand_Gesture_System\Presentaion" />
-      <recent name="D:\Ahmad\Python\Hand_Gesture_System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Ahmad\Python\Hand_Gesture_System" />
@@ -143,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733595851042</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add VolumeController.py">
+      <option name="closed" value="true" />
+      <created>1733598305469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733598305469</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +163,7 @@
     <MESSAGE value="Add pointer in Presentation" />
     <MESSAGE value="Add Presentation slides" />
     <MESSAGE value="Add requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add requirements.txt" />
+    <MESSAGE value="Add VolumeController.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add VolumeController.py" />
   </component>
 </project>
