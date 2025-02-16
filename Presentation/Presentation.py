@@ -13,6 +13,7 @@ print(width, height)
 ws, hs = int(256 * 1), int(144 * 1)  # small window size
 cap = cv2.VideoCapture(0)
 cap.set(3, width)
+
 cap.set(4, height)
 
 # Initialize swipe gesture variables
