@@ -6,7 +6,7 @@ from cvzone.HandTrackingModule import HandDetector
 # Get screen resolution
 screen = screeninfo.get_monitors()[0]  # Get the primary monitor
 width, height = screen.width, screen.height
-print (width, height)
+print(width, height)
 
 # slide window size
 # width, height = 1280, 720
@@ -26,7 +26,8 @@ gesture_delay = 30
 
 image_folder = "..\\Presentation\\Resources"  # Image folder
 image_list = sorted(
-    [os.path.join(image_folder, img) for img in os.listdir(image_folder) if img.endswith(('.png', '.jpg', '.jpeg'))], key=len)
+    [os.path.join(image_folder, img) for img in os.listdir(image_folder) if img.endswith(('.png', '.jpg', '.jpeg'))],
+    key=len)
 image_index = 0
 
 print(image_list)  # Print the list of Slides
@@ -34,6 +35,10 @@ print(image_list)  # Print the list of Slides
 detector = HandDetector(detectionCon=0.8, maxHands=1)
 
 while True:
+    key = cv2.waitKey(1)
+    if key == ord('q'):
+        break
+
     success, img = cap.read()
     img = cv2.flip(img, 1)
     # Current image
@@ -44,7 +49,16 @@ while True:
     hands, img = detector.findHands(img, flipType=False)
     cv2.line(img, (0, gesture_threshold), (width, gesture_threshold), (0, 255, 0), 10)
 
-    if hands:
+    if key == 52 and image_index > 0:
+        image_index -= 1
+        print("Left")
+
+    if key == 54 and image_index < len(image_list) - 1:
+        image_index += 1
+        print("Right")
+
+    if hands :
+
         hand = hands[0]
         fingers = detector.fingersUp(hand)
         cx, cy = hand['center']
@@ -53,7 +67,7 @@ while True:
         print(fingers)
 
         # pointer
-        if fingers == [0, 1, 1, 0, 0]:
+        if fingers == [1, 1, 1, 0, 0]:
             cv2.circle(resizedSlide, right_index_finger, 12, (0, 0, 255), cv2.FILLED)
 
         if cy <= gesture_threshold:
@@ -64,7 +78,7 @@ while True:
 
             if gesture_check is False:
                 # Left Gesture
-                if hand['type'] == 'Left' and fingers == [1, 0, 0, 0, 0]:
+                if hand['type'] == 'Left' and fingers == [1, 0, 0, 0, 0] :
                     if image_index > 0:
                         gesture_check = True
                         # image_index = (image_index - 1) % len(image_list)
@@ -88,11 +102,6 @@ while True:
             gesture_counter = 0
             gesture_check = False
 
-    # Display the current image
-    # image_to_show = cv2.imread(image_list[image_index])
-
-    # To resize the image/slide
-
     # webcam
     smlWebcam = cv2.resize(img, (ws, hs))  # Adding webcam image on the slide
     h, w, _ = resizedSlide.shape
@@ -100,10 +109,6 @@ while True:
     # cv2.imshow("Image", img)
 
     cv2.imshow("Slides", resizedSlide)
-
-    key = cv2.waitKey(1)
-    if key == ord('q'):
-        break
 
 # Release the webcam and close all windows
 cap.release()

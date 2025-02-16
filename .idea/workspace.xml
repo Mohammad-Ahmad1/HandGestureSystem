@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add pyautogui in requirements.txt">
+    <list default="true" id="91a2fb54-f0ec-4f52-ba35-aed98b86abe6" name="Changes" comment="Add MouseControls.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.HandSigns.executor": "Run",
     "Python.MouseControls.executor": "Run",
     "Python.Presentaion.executor": "Run",
     "Python.Presentation.executor": "Run",
@@ -53,11 +55,12 @@
     "Python.VolumeControl.executor": "Run",
     "Python.VolumeController.executor": "Run",
     "Python.presentation_controller.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Ahmad/Python/Hand_Gesture_System/HandSign",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -160,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733598618975</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add MouseControls.py">
+      <option name="closed" value="true" />
+      <created>1733602614250</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733602614250</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +184,7 @@
     <MESSAGE value="Add requirements.txt" />
     <MESSAGE value="Add VolumeController.py" />
     <MESSAGE value="Add pyautogui in requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pyautogui in requirements.txt" />
+    <MESSAGE value="Add MouseControls.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MouseControls.py" />
   </component>
 </project>
